@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Forum - Create New Topic </title>
+
+    <style type="text/css">
+      .author-col {
+        min-width: 12em;
+      }
+
+      .post-col {
+        min-width: 20em;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar & Breadcrumb -->
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container">
+        <h1><a href="#0" class="navbar-brand">Forum</a></h1>
+        <form action="" class="form-inline">
+          <input type="text" class="form-control mr-3 mb-2 mb-sm-0" placeholder="Search">
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container my-3">
+      <nav class="breadcrumb">
+        <a href="#0" class="breadcrumb-item">Board index</a>
+        <a href="#0" class="breadcrumb-item">Forum category</a>
+        <a href="#0" class="breadcrumb-item">Forum name</a>
+        <span class="breadcrumb-item active">Create New Topic</span>
+      </nav>
+
+      <div class="row">
+        <div class="col-12">
+
+          <!-- Board overview  -->
+          <h2 class="h4 text-white bg-info mb-3 p-4 rounded">Create new topic</h2>
+          <form action="" class="mb-3">
+            <div class="form-group">
+              <label for="topic">Topic</label>
+              <input type="text" class="form-control" id="topic" placeholder="Give your topic a title." required>
+            </div>
+    
+            <div class="form-group">
+              <label for="comment">Comment:</label>
+              <textarea name="" id="comment" class="form-control" rows="10" placeholder="Write your comment here." required></textarea>
+            </div>
+            
+            <div class="form-check">
+              <label for="" class="form-check-label">
+                <input type="checkbox" class="form-check-input" id="checkbox" value="notification">Notify me upon replies.
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Create topic</button>
+            <button type="reset" class="btn btn-danger">Reset</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="small bg-dark text-white">
+      <div class="container py-4">
+        <ul class="list-inline mb-0 text-center">
+          <li class="list-inline-item">&copy; 2021 Web Company, Inc.</li>
+          <li class="list-inline-item">All Rights Reserved.</li>
+          <li class="list-inline-item"><a href="#0">Terms of use and privacy policy.</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
